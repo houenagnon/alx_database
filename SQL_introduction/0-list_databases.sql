@@ -1,2 +1,2 @@
-/*List all DataBases in Mysql server*/
+-- This querie list all DataBases in Mysql server
 SHOW DATABASES;
