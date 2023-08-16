@@ -1,4 +1,4 @@
 -- script that lists all the tables of a database in your MySQL server
-
-SHOW TABLES FROM '$1';
+db= "$1"
+SHOW TABLES FROM db;
 
