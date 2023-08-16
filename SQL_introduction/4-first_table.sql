@@ -1,7 +1,6 @@
 --Write a script that creates a table called first_table in the current database in your MySQL server.
-CREATE DATABASE hbtn_test_db_4;
 
-CREATE TABLE IF NOT EXISTS first_table (
+CREATE TABLE first_table IF NOT EXISTS  (
     id INT,
     name VARCHAR(256)
 );
