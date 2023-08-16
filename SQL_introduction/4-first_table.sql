@@ -1,11 +1,6 @@
- Store the provided arguments in variables
-username="$1"
-database="$2"
+--Write a script that creates a table called first_table in the current database in your MySQL server.
 
-# Execute the MySQL command with the provided username and database name to create the table
-mysql -u "$username" -p -D "$database" -e "
 CREATE TABLE IF NOT EXISTS first_table (
     id INT,
     name VARCHAR(256)
 );
-"
